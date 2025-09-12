@@ -1,14 +1,11 @@
 class Pessoa:
-    def __init__(self, nome, idade):
+    def __init__(self, nome: str, idade: int):
         self.nome = nome
         self.idade = idade
 
-    def falar(self):
-        print(f"Oi! Eu sou {self.nome} e tenho {self.idade} anos.")
+    def falar(self, mensagem: str):
+        print(f"{self.nome} diz: {mensagem}")
 
-# Criando objetos
-p1 = Pessoa("João", 30)
-p2 = Pessoa("Ana", 25)
-
-p1.falar()
-p2.falar()
+    def aniversario(self):
+        self.idade += 1
+        print(f"Parabéns, {self.nome}! Agora você tem {self.idade} anos.")
