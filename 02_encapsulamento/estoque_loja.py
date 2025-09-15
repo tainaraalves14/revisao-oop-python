@@ -13,6 +13,7 @@ class Estoque:
             self.__quantidade = valor
         else:
             print("Quantidade não pode ser negativa.")
+            
 #O atributo __quantidade está privado (privado → não pode ser acessado diretamente de fora da classe).
 #O uso de @property e @setter permite controlar o acesso e a modificação da quantidade
 #com validações.

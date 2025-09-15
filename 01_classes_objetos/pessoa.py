@@ -12,3 +12,9 @@ class Pessoa:
 
 
 
+#self : referencia o próprio objeto
+# __init__ : método construtor (inicializa os atributos do objeto) 
+# método : função dentro de uma classe
+# atributo : variável dentro de uma classe
+# instanciar : criar um objeto a partir de uma classe
+# objeto : instância de uma classe
