@@ -1,4 +1,4 @@
-# Herança e Polimorfismo em Programação Orientada a Objetos (OOP) – Explicação Intuitiva
+# Herança e Polimorfismo em Programação Orientada a Objetos (OOP) – Explicação 
 
 A **Programação Orientada a Objetos (OOP)** organiza sistemas pensando em **objetos do mundo real**, cada um com **características** (atributos) e **ações** (métodos). Dois conceitos centrais da OOP são **herança** e **polimorfismo**.
 
