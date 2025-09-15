@@ -13,7 +13,11 @@ class Estoque:
             self.__quantidade = valor
         else:
             print("Quantidade não pode ser negativa.")
-            
+
+
+#------------------------------explicação------------------------------
+# Definindo a classe (todo estoque tem produto, quantidade e pode mostrar ou atualizar a quantidade) - molde para criar objetos
+
 #O atributo __quantidade está privado (privado → não pode ser acessado diretamente de fora da classe).
 #O uso de @property e @setter permite controlar o acesso e a modificação da quantidade
 #com validações.
