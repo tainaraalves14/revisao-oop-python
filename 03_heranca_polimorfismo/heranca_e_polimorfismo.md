@@ -69,5 +69,29 @@ Polimorfismo significa “**muitas formas**”.
 
 ---
 
+## 6. . Aplicação em softwares produtivos e mercado
+
+No desenvolvimento de **softwares reais**, herança e polimorfismo ajudam a criar sistemas mais **robustos, escaláveis e fáceis de manter**.
+
+**Exemplos de mercado:**
+
+1. **Sistemas de pagamento:**  
+   - Classe `Pagamento` (pai) com métodos comuns como `processar()` ou `cancelar()`.  
+   - Subclasses como `CartaoCredito`, `Boleto` e `Pix` implementam `processar()` de formas diferentes (polimorfismo).  
+   - Isso permite adicionar novos métodos de pagamento sem mudar o código existente.
+
+2. **Aplicativos de transporte (Uber, 99):**  
+   - Classe `Veiculo` com atributos comuns como `marca`, `modelo` e métodos como `mover()`.  
+   - Subclasses `Carro`, `Moto` e `Bicicleta` implementam `mover()` de formas diferentes.  
+   - Novos tipos de veículo podem ser adicionados facilmente sem quebrar o sistema.
+
+3. **Softwares de e-commerce:**  
+   - Classe `Produto` com atributos comuns (`nome`, `preco`) e método `calcularDesconto()`.  
+   - Subclasses `Eletronico`, `Roupa`, `Alimento` calculam descontos de maneiras específicas, mantendo o código limpo e organizado.
+
+**Resumo:**  
+- Herança e polimorfismo tornam sistemas **flexíveis**, permitindo que novas funcionalidades sejam adicionadas **sem grandes mudanças**.  
+- Facilitam o **reuso de código**, a **manutenção** e a **adaptação a novos requisitos do mercado**.
+
 **Conclusão:**  
 Herança e polimorfismo juntos permitem criar sistemas **organizados, reutilizáveis e flexíveis**, assim como na vida real, onde famílias e habilidades individuais coexistem de maneira natural.
