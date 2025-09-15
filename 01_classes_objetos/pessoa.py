@@ -9,3 +9,6 @@ class Pessoa:
     def aniversario(self):
         self.idade += 1
         print(f"Parabéns, {self.nome}! Agora você tem {self.idade} anos.")
+
+
+
