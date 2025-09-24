@@ -82,3 +82,8 @@ Deep Learning é um subset do Machine Learning que utiliza redes neurais artific
 - **Machine Learning** é uma abordagem específica dentro da IA.
 - **Deep Learning** é uma técnica avançada dentro do Machine Learning.
 - **Ciência de Dados** usa tanto IA quanto ML para entender e explorar dados.
+
+
+arquivos .md (Markdown) em preview
+Pressione Ctrl + Shift + V → abre o preview lado a lado.
+Pressione Ctrl + K V → abre o preview na lateral.
